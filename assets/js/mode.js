@@ -1,4 +1,5 @@
 const toggleSwitch = document.querySelector("#dark-mode-toggle");
+localStorage.setItem("theme", "dark"); // dark mode as default
 
 if (currentTheme) {
   document.documentElement.setAttribute("data-theme", currentTheme);
