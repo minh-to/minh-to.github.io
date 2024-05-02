@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+{% include head.html %}
+<body>
+<main>
+    {% include header.html %}
+    <section class="article">
+        <div class="article-header">
+            <h2 class="article-title">{{page.title}}</h2>
+            <small class="date">{{page.date | date_to_string}}</small>
+            <div class="categories">
+                {% for c in page.categories %}
+                <a href="#!" class="category">{{c}}</a>
+                {% endfor %}
+            </div>
+        </div>
+        <div class="content">{{content}}</div>
+        <div id="attribution-section">
+            <ul>
+                {% for i in site.data.author.credits %}
+                <li>
+                    <a href="{{i.url}}" target="_blank">
+                        <img src="{{site.baseurl}}/assets/icons/{{i.title}}.png" alt=""/>
+                        {{i.description}} | {{i.urlText}}
+                    </a>
+                </li>
+                {%endfor%}
+            </ul>
+        </div>
+    </section>
+    {% include credit-footer.html %}
+</main>
+{% include category-modal.html%}
+</body>
+</html>

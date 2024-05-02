@@ -1,3 +1,17 @@
 dp: https://avatars.githubusercontent.com/u/54022540?v=4
 description: "Testing stuff using Jekyll"
-attribution: "https://github.com/sharadcodes/jekyll-theme-serial-programmer"
+small-description: "hi hello do your daily wordle"
+
+credits:
+  - spotify-icon:
+    description: spotify icon
+    urlText: Spotify sketch icons created by Pixel perfect - Flaticon
+    url: href="https://www.flaticon.com/free-icons/spotify-sketch" title="spotify sketch icons"
+  - blog-theme:
+    description: blog theme
+    urlText: sharardcodes
+    url: https://github.com/sharadcodes/jekyll-theme-serial-programmer
+
+contact:
+  - title: spotify
+    url: https://open.spotify.com/user/kfw3wrn2uwihyao6zf3gmwxdc?si=b0c8bd8c424e4c9d
