@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+{% include head.html %}
+<body>
+<main class="wrapper">
+    {% include header.html %} {% include bio.html %}
+    <section class="articles page-body">
+        {% assign ordered_pages = site.music | sort:"date" %}
+        {% for post in ordered_pages reversed %}
+        <article class="article">
+            <h2 class="article-title">
+                <a href="{{site.baseurl}}{{post.url}}"> {{post.title}} </a>
+            </h2>
+            <small class="date">{{post.desc}}</small>
+            <div class="categories">
+                {% for c in post.categories %}
+                <a href="#!" data-base-url="{{site.baseurl}}" class="category"
+                >{{c}}</a
+                >
+                {% endfor %}
+            </div>
+        </article>
+        {%endfor%}
+    </section>
+    {% include footer.html %}
+</main>
+{% include category-modal.html%}
+</body>
+</html>
