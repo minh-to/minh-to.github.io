@@ -12,9 +12,13 @@ credits:
     urlText: sharardcodes
     url: https://github.com/sharadcodes/jekyll-theme-serial-programmer
   - favicon:
-    description: favicon
+    description: favicons
     urlText: favicongenerator.net
     url: https://realfavicongenerator.net/
+  - profile:
+    description: profile picture
+    urlText: Pawel Czerwinski via Unsplash
+    url: https://unsplash.com/photos/pink-and-green-abstract-art-ruJm3dBXCqw
 
 contact:
   - title: spotify
