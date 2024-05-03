@@ -11,6 +11,10 @@ credits:
     description: blog theme
     urlText: sharardcodes
     url: https://github.com/sharadcodes/jekyll-theme-serial-programmer
+  - favicon:
+    description: favicon
+    urlText: favicongenerator.net
+    url: https://realfavicongenerator.net/
 
 contact:
   - title: spotify
