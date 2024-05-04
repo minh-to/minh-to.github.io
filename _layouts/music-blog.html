@@ -4,6 +4,7 @@
 <body>
 <main class="wrapper">
     {% include header.html %}
+    <h2 class="">{{page.title}}</h2>
     <section class="articles page-body">
         {% assign ordered_pages = site.music | sort:"date" %}
         {% for post in ordered_pages reversed %}
