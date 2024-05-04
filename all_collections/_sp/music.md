@@ -1,6 +1,6 @@
 ---
 layout: music-blog
-title: Spotify
-desc: songs  | playlists
+title: music
+desc: spotify | playlists
 categories: ["🎶", "🎹", "🎸"] 
 ---

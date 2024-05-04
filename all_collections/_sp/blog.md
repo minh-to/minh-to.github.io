@@ -1,6 +1,6 @@
 ---
-title: Blog
+title: blog
 layout: blog
-desc: this | that
+desc: some | text
 categories: ["📒", "✉️"]
 ---
