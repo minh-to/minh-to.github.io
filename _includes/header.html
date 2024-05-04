@@ -1,5 +1,9 @@
 <header>
-    <a class="site-title" href="{{site.baseurl}}/">{{site.title}}</a>
+    {% if page.title == "Blog" %}
+    <a class="site-title" href="{{site.baseurl}}/">{{site.blog-title}}.</a>
+    {% else %}
+    <a class="site-title" href="{{site.baseurl}}/">{{site.title}}.</a>
+    {% endif %}
     {% comment %}
     <!-- dark/light mode -->
     {% endcomment %}
