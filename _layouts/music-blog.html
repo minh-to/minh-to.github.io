@@ -19,7 +19,7 @@
             <br>
             {% endif %}
 
-            {{post.content}}
+            <div class="embed-container">{{post.content}}</div>
             <div class="categories">
                 {% for c in post.categories %}
                 <a href="#!" data-base-url="{{site.baseurl}}" class="category">{{c}}</a>
@@ -31,5 +31,6 @@
     {% include footer.html %}
 </main>
 {% include category-modal.html%}
+<script src="{{site.baseurl}}/assets/js/music-blog.js" defer></script>
 </body>
 </html>
