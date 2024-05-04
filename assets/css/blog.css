@@ -146,6 +146,12 @@ main {
     transition: all 0.2s ease-in-out;
 }
 
+/*Simulate <a> link styling */
+.article-title {
+    display: inline-block;
+    cursor: pointer;
+}
+
 .articles .article .article-title,
 .articles .article .article-title a {
     color: var(--white-2);
@@ -180,7 +186,7 @@ main {
     font-size: 0.7rem;
     padding: 0 0.8rem;
     line-height: 1.3rem;
-    cursor: pointer;
+    cursor: default;
 }
 
 /* media query */
