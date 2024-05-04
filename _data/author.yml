@@ -19,6 +19,10 @@ credits:
     description: profile picture
     urlText: Pawel Czerwinski via Unsplash
     url: https://unsplash.com/photos/pink-and-green-abstract-art-ruJm3dBXCqw
+  - x-button:
+    description: modal closing button icon (x)
+    urlText: bootstrap icons
+    url: https://icons.getbootstrap.com/icons/x/
 
 contact:
   - title: spotify

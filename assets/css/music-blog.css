@@ -6,6 +6,18 @@
     margin-top: 2rem;
 }
 
-.article{
+.article {
     cursor: zoom-in;
+}
+
+#category-modal-title {
+    margin-bottom: 0 !important;
+}
+
+#modal-header {
+    margin-bottom: 0.5rem;
+}
+
+#modal-close-button{
+    cursor: pointer;
 }
