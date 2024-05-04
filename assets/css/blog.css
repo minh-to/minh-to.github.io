@@ -147,7 +147,7 @@ main {
 }
 
 /*Simulate <a> link styling */
-.article-title {
+.article-title-link {
     display: inline-block;
     cursor: pointer;
 }

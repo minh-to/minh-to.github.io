@@ -3,7 +3,7 @@
 {% include head.html %}
 <body>
 <main class="wrapper">
-    {% include header.html %} {% include bio.html %}
+    {% include header.html %}
     <section class="articles page-body">
         {% assign ordered_pages = site.music | sort:"date" %}
         {% for post in ordered_pages reversed %}
