@@ -9,14 +9,19 @@
         {% for post in ordered_pages reversed %}
         <article class="article">
             <h2 class="article-title">
-                <a href="{{site.baseurl}}{{post.url}}"> {{post.title}} </a>
+                {{post.title}}
             </h2>
+
+            {% if post.desc and post.desc != '' %}
             <small class="date">{{post.desc}}</small>
+            {% else %}
+            <br>
+            {% endif %}
+
+            {{post.content}}
             <div class="categories">
                 {% for c in post.categories %}
-                <a href="#!" data-base-url="{{site.baseurl}}" class="category"
-                >{{c}}</a
-                >
+                <a href="#!" data-base-url="{{site.baseurl}}" class="category">{{c}}</a>
                 {% endfor %}
             </div>
         </article>
