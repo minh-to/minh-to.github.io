@@ -1,4 +1,4 @@
 ---
-title: Main
+title: main
 layout: index
 ---
